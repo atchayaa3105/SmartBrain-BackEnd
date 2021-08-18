@@ -40,7 +40,7 @@ app.post('/imageurl',(req,res)=>{ image.apiCall(req, res) })
 
 
 app.listen(process.env.PORT || 3000, ()=>{
-	console.log(`app is running on local host ${process.env.PORT}`);
+	console.log(`app is running on port  ${process.env.PORT}`);
 })
 
 
